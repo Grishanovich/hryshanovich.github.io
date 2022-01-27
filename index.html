@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  
+  <div class="container-top">
+    <h2>Генератор случайных паролей</h2>
+  </div>
+
+  <div id="slider-container">
+    <div id="slider">
+      <div id="slider-liner">
+        <img id="1" src="img/shelter.png" alt="">
+        <img id="2" src="img/house.png" alt="">
+        <img id="3" src="img/castle.png" alt="">
+        <img id="4" src="img/strongcastle.png" alt="">
+      </div>
+    </div>
+  
+   
+  <div id="main-container">
+    
+    <div class="container-check">
+      <div class="container-p">
+        <p>Используемые символы:</p>
+      </div>
+
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" name="" id="nums" checked><span></span> 123
+
+        </label>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" name="" id="lower-case" checked><span></span> abc
+
+        </label>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" name="" id="upper-case" checked><span></span> ABC
+
+        </label>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" name="" id="symbols"><span></span> %@#
+        </label>
+      </div>
+    </div>
+    <div class="inputLength">
+      <label for="long">Длина пароля: <span id="pass-length"><b> 8 </b></span></label>
+      <div id="range-options">
+        <button class="chng-btns" id="minus">–</button>
+        <input type="range" name="" id="long" value="8" min="1" max="32" step="1" class="slider">
+        <button class="chng-btns" id="plus">+</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="form">
+        <input type="text" id="out" value="" readonly>
+        <input id="button" type="submit" value="">
+      </div>
+      <div id='form-btn'>
+        <input id="coppy-btn" type="submit" value="копировать">
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+<!-- http://code.mu/ru/javascript/book/prime/dom/basis/attributes-methods-properties-differences/ -->
+
+</html>
